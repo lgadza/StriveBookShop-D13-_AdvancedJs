@@ -1,0 +1,36 @@
+.book-img {
+  height: 300px;
+  /* object-fit: cover; */
+}
+.book-price {
+  color: red;
+  font-weight: bold;
+}
+.card-title {
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.btn {
+  display: block;
+  margin: auto;
+  border: 1px solid red;
+  color: red;
+}
+.btn:hover {
+  background-color: coral;
+  color: white;
+}
+
+.card {
+  /* background-color: coral; */
+}
+.added-item {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
